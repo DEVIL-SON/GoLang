@@ -29,24 +29,24 @@
 // 	fmt.Println()
 // 	printCharacter(name2)
 // }
-package main
+// package main
 
-import (  
-    "fmt"
-)
+// import (  
+//     "fmt"
+// )
 
-func main() {  
-    strings := "Helloworld"
-	for _, value := range strings{
-		if value >= 'a' && value <= 'z'{
-			value -= 32
-		}
-		// fmt.Println(value)
-		new_string := []byte{}
-		new_string = append(new_string, byte(value))
-		fmt.Print(string(new_string))
-	} 
-}
+// func main() {  
+//     strings := "Helloworld"
+// 	for _, value := range strings{
+// 		if value >= 'a' && value <= 'z'{
+// 			value -= 32
+// 		}
+// 		// fmt.Println(value)
+// 		new_string := []byte{}
+// 		new_string = append(new_string, byte(value))
+// 		fmt.Print(string(new_string))
+// 	} 
+// }
 
 
 
